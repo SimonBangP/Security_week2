@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/*@RestController
-@RequestMapping("api/members") */
+@RestController
+@RequestMapping("api/members")
 public class MemberController {
 
     @Autowired  //Deliberately added via Autowired, remove this endpoint when you know why it's bad
